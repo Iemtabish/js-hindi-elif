@@ -1,6 +1,6 @@
 "use strict"; // treat all js code as newer version
 
-alert("hello")
+// alert("hello")
 
 // number - 2,3,5.6,100.12
 // string -  "  "
@@ -10,4 +10,8 @@ alert("hello")
 // undefined
 // symbol - uniqueness
 // object - 
+
+
+console.log(typeof "tabish");
+
 
