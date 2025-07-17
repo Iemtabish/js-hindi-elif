@@ -23,13 +23,21 @@
 
 // console.log(anotherName);
 
-let userOne = {
-        name : "Tabish", 
-        email : "tabishabbas@gmail.com"
-}
+// let userOne = {
+//         name : "Tabish", 
+//         email : "tabishabbas@gmail.com"
+// }
 
-let userTwo = userOne
-userTwo.email = "ashikhan@gmail.com" 
+// let userTwo = userOne
+// userTwo.email = "ashikhan@gmail.com" 
 
-console.log(userOne);
-console.log(userTwo);
+// console.log(userOne);
+// console.log(userTwo);
+
+let name1 = "Tabish";
+let name2 = name1;
+
+name2 = "Ayesha";
+
+console.log(name1); // Tabish
+console.log(name2); // Ayesha
